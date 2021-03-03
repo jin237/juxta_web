@@ -162,41 +162,7 @@ https://www.coscom.co.jp/hiragana-katakana/kanatable-j.html
 とする。それぞれに対して、ノイズのラベル付けを行っている。
 <br><br><br><br>
 
-# 数値データ内容
-### 上記の音源に対する各ウィンドウの数値データ（.csv/.txt）
-データは、以下のようなもので出力
-https://github.com/jin237/juxtaphony_project/tree/main/data_set/preliminary_experiments/analysis_result/conde_demo_spectrum.txt
-https://github.com/jin237/juxtaphony_project/tree/main/data_set/preliminary_experiments/analysis_result/throat_demo_spectrum.txt  
-これらをグラフ化したものは以下で出力
-csvファイルまたはtxtファイルにてHamming Windowなどの数値データの公開
-<img src="https://github.com/jin237/juxtaphony_project/blob/main/data_set/preliminary_experiments/analysis_result/throat_demo_spectrum.png">
 
-  図３　スロートマイクのスペクトラムグラフ
-<br><br>
-<img src="https://github.com/jin237/juxtaphony_project/blob/main/data_set/preliminary_experiments/analysis_result/conde_demo_spectrum.png">
-
-  図４　コンデンサマイクのスペクトラムグラフ
-<br><br>
-<img src="https://github.com/jin237/juxtaphony_project/blob/main/data_set/preliminary_experiments/analysis_result/mix_wave.png">
-
-  図５　スロートマイク及びコンデンサマイクの波形の重ね合わせ
-<br><br>
-<img src="https://github.com/jin237/juxtaphony_project/blob/main/data_set/preliminary_experiments/analysis_result/mix_demo.png">
-
-  図６　スロートマイク及びコンデンサマイクのスペクトラムグラフの重ね合わせ
-<br><br>
-
-### 音声通話による50音における各行の人的相対音声評価
-- ４人を対象に飯野が話者として、Skypeで2名、LINEで2名以下のような実験を行った。
-- 通信通話アプリケーション（LINE、Skype）を用いて、定常的な雑音環境下に置いて、「あ」「い」「う」「え」「お」の発音を最初に教え、その後に、「さ」行、「ま」行、「か」行　など、の行をランダムに発音することで、評価を行う
-<br>
-＜結果と考察＞
-
-- 「ま」行、「さ」行、「わ」「や」の認識率：２５％
-- 「は」「か」行は認識率：５０％
-- 唾を飲み込むことによる音はささやき声よりも大きい
-  - 突発的ではあるが、特殊な音ではあるのでフィルターはかけやすいかもしれない。
-<br><br>
 
 
 # 参考資料(articles内)
